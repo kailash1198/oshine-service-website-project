@@ -1,0 +1,510 @@
+/* css reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header  */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/girl-1828536_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.header-container {
+    width: 100%;
+    height: 100%;
+}
+
+.heading-menu {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar ul i {
+    margin: 0px 10px;
+}
+
+.navbar i {
+    color: white;
+    background-color: rgb(9, 167, 153);
+    padding: 8px 9px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+.header-content {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    padding: 50px 0px;
+}
+
+.header-content h1 {
+    margin: 10px 0px;
+    font-weight: 500;
+    width: 50%;
+    font-size: 3.5rem;
+}
+
+.header-content p {
+    font-weight: 300;
+    width: 40%;
+}
+
+.heading-btn {
+    margin-top: 30px;
+}
+
+.heading-btn a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+/* section- intro  */
+
+#intro {
+    width: 100vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.intro-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-italic {
+    font-family: 'Crimson Text', serif;
+}
+
+.intro-container h2 {
+    font-size: 3rem;
+    padding: 20px 0px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.intro-des {
+    color: gray;
+    width: 40%;
+    line-height: 1.5;
+}
+
+.intro-btn {
+    padding: 20px 0px;
+}
+
+.intro-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(49, 202, 189);
+    padding: 15px 20px;
+    font-size: 0.7rem;
+}
+
+/* section- design  */
+
+#design {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(128, 128, 128, 0.10);
+}
+
+.design-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.design-box-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-heading h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.design-heading-style-para {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+
+.design-box {
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.design-box i {
+    font-size: 2.5rem;
+    color: rgba(49, 202, 189, 0.822);
+}
+
+.design-box .design-box-heading {
+    padding: 20px;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.design-box-para {
+    text-align: left;
+    color: gray;
+    line-height: 1.5;
+}
+
+/* section- work  */
+
+#work {
+    width: 100vw;
+    height: 140vh;
+    background-color: white;
+}
+
+.work-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-heading {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.work-heading h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.work-heading p {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+}
+
+.work-box {
+    display: flex;
+}
+
+.work-image-container {
+    margin-top: 50px;
+}
+
+.work-box-image {
+    background-color: rgba(128, 128, 128, 0.164);
+    margin: 10px;
+}
+
+.work-box-image img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.work-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.work-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(49, 202, 189);
+    padding: 15px 25px;
+    font-size: 0.7rem;
+}
+
+/* section- service  */
+
+#service {
+    width: 100vw;
+    height: 170vh;
+}
+
+.service-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.service-heading {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.service-heading h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.service-heading p {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.6;
+}
+
+.service-box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.service-box {
+    margin: 0px 40px;
+}
+
+.service-box-child {
+    text-align: right;
+    margin: 70px 0px;
+}
+
+.service-box-child .service-box-para {
+    padding: 20px 0px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.service-box-des {
+    color: gray;
+}
+
+.service-box-child i {
+    font-size: 2rem;
+    color: rgb(49, 202, 189);
+}
+
+/* section- testimonial */
+
+#testimonial {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.testimonial-container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.testimonial-heading {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.testimonial-heading h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.testimonial-heading p {
+    color: gray;
+    width: 30%;
+    margin: auto;
+    font-family: 'Crimson Text', serif;
+}
+
+.testimonial-box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-box {
+    margin: 0px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.testimonial-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testi-box-para {
+    padding: 15px 0px;
+    color: gray;
+}
+
+.testi-user-name {
+    padding: 10px 0px;
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.testi-italic-font {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+}
+
+/* section- help  */
+
+#help {
+    width: 100vw;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/bodyworn-794099_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.help-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.help-box {
+    margin: 0px 20px;
+}
+
+.help-box h1 {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.help-box a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: rgba(49, 202, 189, 0.829);
+    border-radius: 5px;
+}
+
+/* footer  */
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+}
+
+.footer-box {
+    margin: 0px 30px;
+    width: 100%;
+}
+
+.footer-box-para {
+    color: gray;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+
+.footer-box i {
+    padding: 30px 10px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.footer-box-contact {
+    color: gray;
+    padding: 10px 0px;
+}
+
+.footer-box-find {
+    color: gray;
+    padding: 10px 0px;
+}
